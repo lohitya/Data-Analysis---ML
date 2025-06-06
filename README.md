@@ -1,45 +1,44 @@
 # Amazon Ad Click Analysis
 
-## Project Goal
-To analyze how device type, ad position, user demographics, and browsing history impact ad click-through rates (CTR).
+**Business Problem**
+
+Amazon aims to optimise its advertising strategy to improve click-through rates (CTR) across devices, ad placements, and customer segments. However, varying performance across demographics, devices, and ad positions creates uncertainty in how best to allocate ad placements and tailor creative content.
+
+
 
 ## Tools Used
 - Python
 - Pandas, Seaborn, Matplotlib
 
+  
+**Key Insights**
 
-## Key Business Insights
-1. **Overall CTR**: 64.2%
+- Overall CTR is strong at 64.2%, with notable variation across segments.
 
-2. Device Type:
-	- Desktop users have the highest CTR: 65.53%
-	- Mobile and Tablet users show slightly lower CTRs: 63.75% and 64.82%, respectively
-	 Insight: Focus on optimizing desktop ad experience, especially for high-intent users.
+- Desktop users yield the highest CTR (65.53%), while Mobile and Tablet follow closely.
 
-3. Ad Position:
-	- Ads shown at the 'Bottom' position had slightly higher CTR.
-	- 'Top' and 'Middle' positions performed less effectively.
-	 Insight: Test more bottom-position placements or reevaluate underperforming slots.
+- Ads placed at the bottom of the page outperform top and middle positions in all device types.
 
-4. Device & Ad Position (Heatmap):
-	- High CTRs were observed across all devices when ads were placed at the bottom.
-	 Insight: Reinforce ad placement strategies focusing on device-specific bottom-position ads.
+- Users aged 25-34 show the highest engagement; 45–54 age group lags behind.
 
-5. Age Group:
-	- Users aged 18–24 and 25–34 show the highest CTRs.
-	- Lower engagement observed from users aged 45–54.
-	 Insight: Prioritize targeting the 18–44 demographic with relevant creatives.
+- Entertainment and Shopping ads perform best on Desktop, while Social Media ads excel on Mobile, and Education ads on Tablet.
 
-6. Browsing History:
-	- Entertainment category led with the highest CTR.
-	- Other categories showed relatively even performance.
-	 Insight: Segment users by interest category and personalize content for better performance.
+- Browsing history matters: users interested in Entertainment are most responsive to ads.
 
-7.  Category & Device Heatmap:
-	- Entertainment and shopping ads performed best on Desktop (~68%).
-	- Social Media ads saw highest CTR (~70%) on Mobile.
-	- Education ads performed best on Tablets.
-	 Insight: Match ad category to device platform where they perform best.
+**Recommendations**
+- Optimize ad placement for bottom-of-page slots, especially on desktop.
+
+- Prioritize ad targeting for 25–34 age group with personalized creatives.
+
+- Align ad categories with device strengths (e.g., Social ads on Mobile, Education on Tablets).
+
+- Segment users by browsing history and serve tailored content to improve relevance and CTR.
+
+- Refine desktop ad experience to maximize engagement from high-intent users.
+
+
+
+
 
 
   
