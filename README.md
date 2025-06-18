@@ -28,48 +28,36 @@ Source : Kaggle
 
 Libraries used:
 
-    Pandas,
-    
-    seaborn,
-    
-    matplotlib,
-    
-    plotly
+    Pandas, seaborn, matplotlib, plotly
 
+**1. How does ownership history affect resale pricing?**
 
-# Business Insights:
+Insight: First-owner vehicles retain significantly higher value (median ~0.79M) compared to second-owner cars (~0.67M). This suggests that ownership history is a significant determinant of resale price.​
 
-This project explores the factors influencing used car prices, focusing on ownership history and fuel type. The key findings are:
+Recommendation: Sellers should highlight first-owner status as a premium feature, while buyers can use ownership history to negotiate value.
 
-1. Ownership History Impacts Price
-  - First Owner Vehicles: Median price ~0.79 million​
-  
-  - Second Owner Vehicles: Median price ~0.67 million​
+**2. Which fuel types offer the highest resale value in the second-hand market?** 
 
-Insight: Vehicles with a single owner retain higher value, suggesting that ownership history is a significant determinant of resale price.​
+Insight: Diesel vehicles command the highest median price (~0.866M), while hybrid/CNG  (~0.63 million), Petrol vehicles (~0.70 million) show lower and more varied prices. This could be due to possibly due to fuel efficiency and durability diesel vechicles offer. The variability in hybrid/CNG and petrol vehicle prices indicates other factors, such as model year or brand, may also play roles.​
 
-2. Fuel Type Influences Valuation
-  - Diesel Vehicles: Highest median price (~0.866 million)​
-  
-  - Hybrid/CNG Vehicles: Lower median price (~0.63 million) with notable outliers​
-  
-  - Petrol Vehicles: Median price (~0.70 million) with some high-priced outliers​
+Recommendation: Dealers should consider stocking more diesel models in demand-heavy regions, and clarify hybrid maintenance costs to boost buyer confidence.  
 
-Insight: Diesel vehicles command higher prices, possibly due to fuel efficiency and durability. The variability in hybrid/CNG and petrol vehicle prices indicates other factors, such as model year or brand, may also play roles.​
+**3. What features most strongly influence price depreciation in used cars?** 
 
-3. Combined Effect of Ownership and Fuel Type
-- Second-owner hybrid/CNG vehicles exhibit significantly lower ask prices compared to other combinations.​
-
-Insight: This trend may reflect concerns about battery longevity or maintenance costs in older hybrid models, affecting their resale value.​
-
-4. Correlation Analysis
+Insight:
 
 - Transmission and Ask Price: Negative correlation (-0.28). This suggests that manual transmissions are associated with lower prices, possibly due to consumer preference for automatics.​
 
 - Owner and Ask Price: Negative correlation (-0.24). Indicates that vehicles with more previous owners tend to have lower prices.​
 
 - Age and Ask Price: Negative correlation (-0.55). Highlights that older vehicles are priced lower, aligning with typical depreciation trends.
-  
+
+- Second-owner hybrid/CNG vehicles exhibit significantly lower ask prices compared to other combinations.​ This trend may reflect concerns about battery longevity or maintenance costs in older hybrid models, affecting their resale value.​
+
+
+Recommendation: Use these factors in pricing models to create competitive, data-driven listings, especially for budget-sensitive buyers.
+
+
 
 
 
